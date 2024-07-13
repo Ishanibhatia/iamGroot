@@ -26,23 +26,16 @@ const ImageGrid = ({
     >
       <div className="self-stretch flex flex-row items-start justify-end py-[0rem] pr-[1.937rem] pl-[0rem]">
         <div className="flex-1 flex flex-col items-end justify-start py-[0rem] pr-[0rem] pl-[0.062rem] gap-[0.35rem]">
-          <div className="w-[6.25rem] h-[6.25rem] relative">
-            <div className="absolute top-[0rem] left-[0rem] rounded-[50%] [background:linear-gradient(180deg,_#ff3f6c,_#f26a10)] w-full h-full" />
-            <div className="absolute top-[2.656rem] left-[0.313rem] leading-[1.188rem] font-extrabold inline-block min-w-[5.688rem] z-[1]">
-              <span>MYNTR</span>
-              <span className="text-[0.938rem]">{` `}</span>
-              <span className="text-[1.563rem]">AI</span>
-            </div>
-          </div>
+          
           <div className="self-stretch flex flex-row items-start justify-end py-[0rem] pr-[1.125rem] pl-[0rem]">
             <div className="h-[6.725rem] flex-1 relative">
               <img
-                className="absolute top-[2.694rem] left-[0rem] w-[4.031rem] h-[4.031rem] object-contain"
+                className="absolute top-[5.694rem] left-[0rem] w-[4.031rem] h-[4.031rem] object-contain"
                 alt=""
                 src={shoppingBagFull}
               />
               <img
-                className="absolute top-[0rem] left-[2.925rem] w-[3.806rem] h-[3.806rem] object-contain z-[1]"
+                className="absolute top-[8rem] left-[2.925rem] w-[3.806rem] h-[3.806rem] object-contain z-[1]"
                 loading="lazy"
                 alt=""
                 src={sunGlasses}
