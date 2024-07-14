@@ -20,8 +20,14 @@ const Prompt1 = () => {
         <PromptCarousel2 />
 
         <section className="flex-1 flex flex-row items-start justify-start gap-[6.125rem] max-w-[calc(100%_-_220px)] text-justify text-[1.25rem] text-gray-100 font-assistant mq450:gap-[3.063rem] mq825:max-w-full mq1425:gap-[1.5rem]">
+
+
           <div className="flex-1 flex flex-col items-start justify-start pt-[19.068rem] px-[0rem] pb-[0rem] box-border min-w-[47.438rem] max-w-full mq450:pt-[8.063rem] mq450:box-border mq450:min-w-full mq825:pt-[12.375rem] mq825:box-border">
+
+
             <div className="self-stretch flex flex-col items-start justify-start gap-[12.031rem] max-w-full mq450:gap-[3rem] mq825:gap-[6rem] mq1425:gap-[1.5rem]">
+
+              
               <div className="self-stretch flex flex-row items-start justify-start py-[0rem] pr-[0rem] pl-[1rem] box-border max-w-full">
                 <div className="flex-1 flex flex-col items-start justify-start gap-[1.8rem] max-w-full">
                   <div className="w-[30rem] h-[8rem] relative top-[-10rem]">
