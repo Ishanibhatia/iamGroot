@@ -85,7 +85,6 @@ const AIHomePage = () => {
                     Use this demo prompt to generate gift card templates
                     </div>
                   </div>
-
                   <TypePrompt arrow="/arrow-11@2x.png" />
                 </div>
               </div>

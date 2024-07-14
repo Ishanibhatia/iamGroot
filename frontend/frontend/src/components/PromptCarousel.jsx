@@ -13,7 +13,7 @@ const PromptCarousel = ({ className = "" }) => {
 
   return (
     <div
-      className={`h-[50rem]  w-[22.481rem] relative min-w-[22.481rem] max-w-full text-left text-[0.875rem] text-white font-assistant mq450:min-w-full ${className}`}
+      className={`h-[54rem]  w-[22.481rem] relative min-w-[22.481rem] max-w-full text-left text-[0.875rem] text-white font-assistant mq450:min-w-full ${className}`}
     >
       <div
         className="absolute top-[12%] left-[0rem] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-white w-full h-full"

@@ -11,7 +11,7 @@ const TypePrompt = ({ className = "", arrow, propWidth, propAlignSelf }) => {
 
   return (
     <div
-      className={`w-[100%]  rounded-21xl bg-crimson flex flex-row items-start justify-start pt-[0.756rem] pb-[0.768rem] pr-[2rem] pl-[2.5rem] box-border gap-[3.781rem] max-w-full text-justify text-[1.25rem] text-white font-assistant mq450:gap-[0.938rem] mq825:flex-wrap mq825:gap-[1.875rem]  ${className}`}
+      className={`w-[100%]  rounded-21xl bg-crimson flex flex-row items-start justify-start pt-[0.756rem] pb-[0.768rem] pr-[2rem] pl-[2.5rem] box-border gap-[3.781rem] max-w-full text-justify text-[1.25rem] text-white font-assistant mq450:gap-[0.938rem] mq825:flex-wrap mq825:gap-[1.875rem]   ${className}`}
       style={typePromptStyle}
     >
       <div className="h-[1.813rem] w-[71.906rem] relative rounded-21xl bg-crimson hidden max-w-full" />
