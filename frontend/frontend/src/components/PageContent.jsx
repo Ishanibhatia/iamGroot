@@ -8,7 +8,7 @@ import PropTypes from "prop-types";
 const PageContent = ({ className = "" }) => {
   return (
     <section
-      className={`absolute top-[37.175rem] right-[0.881rem] w-[80%] flex flex-row flex-wrap items-end justify-start gap-[1.675rem] max-w-full text-left text-[1.25rem] text-black font-assistant ${className}`}
+      className={`absolute top-[37.175rem] right-[0.881rem] w-[75%] flex flex-row flex-wrap items-end justify-start gap-[1.675rem] max-w-full text-left text-[1.25rem] text-black font-assistant ${className}`}
     >
       {/* <PostBody
         image38="/image-381@2x.png"
@@ -16,10 +16,10 @@ const PageContent = ({ className = "" }) => {
         image40="/image-401@2x.png"
       /> */}
       <div className="flex-1 shadow-[0px_2px_10px_rgba(0,_0,_0,_0.15)] bg-white flex flex-col items-end justify-start pt-[1.143rem] px-[2.25rem] pb-[0rem] box-border gap-[2.662rem] min-w-[61.813rem] max-w-full lg:min-w-full">
-        <div className="w-[95.1rem] h-[129.819rem] relative shadow-[0px_2px_10px_rgba(0,_0,_0,_0.15)] bg-white hidden max-w-full" />
+        <div className="w-[90.1rem] h-[129.819rem] relative shadow-[0px_2px_10px_rgba(0,_0,_0,_0.15)] bg-white hidden max-w-full" />
         <div className="self-stretch flex flex-row items-start justify-end py-[0rem] pr-[3.562rem] pl-[4.062rem] box-border max-w-full shrink-0">
-          <div className="flex-1 rounded-21xl bg-crimson flex flex-col items-start justify-start pt-[2.875rem] pb-[3.812rem] pr-[3.5rem] pl-[3.75rem] box-border gap-[3.268rem] max-w-full z-[1]">
-            <div className="w-[82.913rem] h-[104.656rem] relative rounded-21xl bg-crimson hidden max-w-full" />
+          <div className="flex-1 w-[100%] rounded-21xl bg-crimson flex flex-col items-start justify-start pt-[2.875rem] pb-[3.812rem] pr-[3.5rem] pl-[3.75rem] box-border gap-[3.268rem] max-w-full z-[1]">
+            <div className="w-[100%] h-[104.656rem] relative rounded-21xl bg-crimson hidden max-w-full" />
             <div className="self-stretch h-[45.263rem] relative rounded-21xl bg-[url('/post-author@3x.png')] bg-cover bg-no-repeat bg-[top] z-[2]">
               <img
                 className="absolute top-[0rem] left-[0rem] rounded-21xl w-full h-full object-cover hidden z-[2]"

@@ -1,9 +1,6 @@
 import { useCallback } from "react";
 import Header from "../components/Header";
 import FrameComponent2 from "../components/FrameComponent2";
-import UserAvatars1 from "../components/UserAvatars1";
-import UserAvatars from "../components/UserAvatars";
-import AdditionalStories from "../components/AdditionalStories";
 import PostContent from "../components/PostContent";
 
 const SocialMediaPage = () => {
@@ -91,6 +88,8 @@ const SocialMediaPage = () => {
 
 
       <PostContent />
+
+      
     </div>
   );
 };

@@ -72,15 +72,6 @@ const PostPage = () => {
 
       </section>
       <PageContent />
-{/* <div>
-
-      <img
-          className="self-stretch w-[100%] h-[21.356rem] relative  overflow-hidden shrink-0 object-cover z-[1] bottom-0"
-          loading="lazy"
-          alt=""
-          src="/image-11@2x.png"
-        />
-</div> */}
     </div>
   );
 };

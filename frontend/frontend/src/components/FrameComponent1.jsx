@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const FrameComponent1 = ({ className = "", gretaBought, arrow }) => {
   return (
     <div
-      className={`w-[40%] flex flex-row items-start justify-between gap-[1.25rem]  text-left text-[1.25rem] text-gray-100 font-assistant mq450:flex-wrap ${className}`}
+      className={`h-[80%] w-[40%] flex flex-row items-start justify-between gap-[1.25rem]  text-left text-[1.25rem] text-gray-100 font-assistant mq450:flex-wrap ${className}`}
     >
       <div className="relative leading-[5rem] inline-block z-[3] mq450:text-[1rem] mq450:leading-[4rem]">
         {gretaBought}
