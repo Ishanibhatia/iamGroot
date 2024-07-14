@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 import Header1 from "../components/Header1";
-import PromptCarousel from "../components/PromptCarousel";
+import PromptCarousel from "./PromptCarousel";
 import { useNavigate } from "react-router-dom";
 import TypePrompt from "../components/TypePrompt";
 import ImageGrid from "../components/ImageGrid";

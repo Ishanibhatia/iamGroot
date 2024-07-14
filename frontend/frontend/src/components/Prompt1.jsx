@@ -3,7 +3,7 @@ import FrameComponent3 from "../components/FrameComponent3";
 import TypePrompt from "../components/TypePrompt";
 import ImageGrid from "../components/ImageGrid";
 import Header1 from "./Header1";
-import PromptCarousel from "./PromptCarousel";
+import PromptCarousel2 from "./PromptCarousel2";
 
 const Prompt1 = () => {
   return (
@@ -17,7 +17,7 @@ const Prompt1 = () => {
       />
 
       <main className="self-stretch flex flex-row items-start justify-start py-[0rem] pr-[1.687rem] pl-[0rem] box-border gap-[3.912rem] max-w-full mq450:gap-[1rem] mq825:gap-[1.938rem] mq825:pl-[1.688rem] mq825:box-border">
-        <PromptCarousel />
+        <PromptCarousel2 />
 
         <section className="flex-1 flex flex-row items-start justify-start gap-[6.125rem] max-w-[calc(100%_-_220px)] text-justify text-[1.25rem] text-gray-100 font-assistant mq450:gap-[3.063rem] mq825:max-w-full mq1425:gap-[1.5rem]">
           <div className="flex-1 flex flex-col items-start justify-start pt-[19.068rem] px-[0rem] pb-[0rem] box-border min-w-[47.438rem] max-w-full mq450:pt-[8.063rem] mq450:box-border mq450:min-w-full mq825:pt-[12.375rem] mq825:box-border">
@@ -83,7 +83,7 @@ const Prompt1 = () => {
                   
                     <TypePrompt
                       arrow="/arrow-11@2x.png"
-                      className="mt-[2rem]"
+                      className="mt-[-10rem]"
                    />
                   
                 </div>

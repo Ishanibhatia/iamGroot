@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import PropTypes from "prop-types";
 
-const PromptCarousel = ({ className = "" }) => {
+const PromptCarousel2 = ({ className = "" }) => {
   const onNewIndicatorClick = useCallback(() => {
     const anchor = document.querySelector(
       "[data-scroll-to='carouselIndicator']"
@@ -13,7 +13,7 @@ const PromptCarousel = ({ className = "" }) => {
 
   return (
     <div
-      className={`h-[50rem]  w-[22.481rem] relative min-w-[22.481rem] max-w-full text-left text-[0.875rem] text-white font-assistant mq450:min-w-full ${className}`}
+      className={`h-[57rem]  w-[22.481rem] relative min-w-[22.481rem] max-w-full text-left text-[0.875rem] text-white font-assistant mq450:min-w-full ${className}`}
     >
       <div
         className="absolute top-[12%] left-[0rem] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-white w-full h-full"
@@ -108,9 +108,9 @@ const PromptCarousel = ({ className = "" }) => {
   );
 };
 
-PromptCarousel.propTypes = {
+PromptCarousel2.propTypes = {
   className: PropTypes.string,
 };
 
-export default PromptCarousel;
+export default PromptCarousel2;
 
