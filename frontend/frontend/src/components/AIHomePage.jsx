@@ -61,7 +61,7 @@ const AIHomePage = () => {
                   <div className="self-stretch h-[11rem] relative top-[-5rem]">
                     <div
                       className="absolute top-[0rem] left-[0rem] rounded-xl bg-white box-border w-full h-full cursor-pointer border-[1px] border-solid border-deeppink"
-                      onClick={onExampleContentClick}
+                      // onClick={onExampleContentClick}
                     />
                     <div className="absolute top-[1.55rem] left-[1.519rem] tracking-[0.04em] leading-[1.375rem] font-semibold z-[1] mq1425:text-[1rem] mq1425:leading-[1.125rem] mr-[25px] text-base">
                     Use this demo prompt to generate a suitable dress with our
@@ -79,7 +79,7 @@ const AIHomePage = () => {
                   <div className="self-stretch h-[5.556rem] relative top-[-5rem]">
                     <div
                       className="absolute top-[0rem] left-[0rem] rounded-xl bg-white box-border w-full h-full cursor-pointer border-[1px] border-solid border-deeppink"
-                      onClick={onExampleContentClick}
+                      onClick={onRectangleClick}
                     />
                     <div className="absolute top-[1.55rem] left-[1.519rem] tracking-[0.04em] leading-[1.375rem] font-semibold z-[1] mq1425:text-[1rem] mq1425:leading-[1.125rem] mr-[25px] text-base">
                     Use this demo prompt to generate gift card templates

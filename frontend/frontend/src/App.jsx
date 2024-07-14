@@ -31,7 +31,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/social-media-page":
+      case "/ai-home-page":
         title = "";
         metaDescription = "";
         break;
@@ -65,8 +65,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<AIHomePage />} />
-      <Route path="/social-media-page" element={<SocialMediaPage />} />
+      <Route path="/" element={<SocialMediaPage />} />
+      <Route path="/ai-home-page" element={<AIHomePage />} />
       <Route path="/prompt1" element={<Prompt1 />} />
       <Route path="/prompt3" element={<Prompt2 />} />
       <Route path="/postpage" element={<PostPage />} />
