@@ -97,7 +97,7 @@ const PromptCarousel2 = ({ className = "" }) => {
       </div>
 
 
-      <div className="absolute top-[90%] left-[1.85rem] mr-[5%] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-xl [background:linear-gradient(90deg,_#f5d638,_#f26a10)] flex flex-row items-start justify-start pt-[1.656rem] pb-[1.662rem] pr-[2rem] pl-[2.187rem] box-border max-w-full z-[1] text-[1.875rem]">
+      <div className="absolute top-[95%] left-[1.85rem] mr-[5%] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-xl [background:linear-gradient(90deg,_#f5d638,_#f26a10)] flex flex-row items-start justify-start pt-[1.656rem] pb-[1.662rem] pr-[2rem] pl-[2.187rem] box-border max-w-full z-[1] text-[1.875rem]">
         <div className="h-[7.069rem] w-[19.613rem] relative shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-xl [background:linear-gradient(90deg,_#f5d638,_#f26a10)] hidden max-w-full" />
         <h1 className="m-0 relative text-inherit leading-[1.875rem] font-extrabold font-inherit z-[2] mq450:text-[1.5rem] mq450:leading-[1.5rem] mq1425:text-[1.125rem] mq1425:leading-[1.125rem]">
           <p className="m-0">{`EXPLORE TRENDING `}</p>

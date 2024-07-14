@@ -1,4 +1,4 @@
-import PromptNavigation from "../components/PromptNavigation";
+
 import FrameComponent3 from "../components/FrameComponent3";
 import TypePrompt from "../components/TypePrompt";
 import ImageGrid from "../components/ImageGrid";

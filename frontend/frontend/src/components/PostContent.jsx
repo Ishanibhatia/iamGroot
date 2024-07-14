@@ -25,7 +25,7 @@ const PostContent = ({ className = "" }) => {
       /> */}
 
 
-  <div className="flex-1 w-[80%] flex flex-col items-center justify-start pt-[1.143rem] pb-[0.712rem] pr-[1.25rem] pl-[1.625rem] box-border relative  text-[0.938rem] text-crimson">
+      <div className="flex-1 w-[80%] flex flex-col items-center justify-start pt-[1.143rem] pb-[0.712rem] pr-[1.25rem] pl-[1.625rem] box-border relative  text-[0.938rem] text-crimson">
 
 
         <div
@@ -33,17 +33,21 @@ const PostContent = ({ className = "" }) => {
           data-scroll-to="engagementDivider"
         />
 
-        
+
         <div className="w-[82.913rem] flex flex-col items-start justify-start gap-[3.081rem] max-w-full shrink-0">
-          <div className="self-stretch flex flex-row items-end justify-start pt-[2.512rem] px-[3.437rem] pb-[1.218rem] box-border relative gap-[0.718rem] max-w-full lg:flex-wrap">
+
+
+
+
+          <div className="self-stretch h-[30rem] flex flex-row items-end justify-start pt-[2.512rem] px-[3.437rem] pb-[1.218rem] box-border relative gap-[0.718rem] max-w-full lg:flex-wrap">
             <div
               className="h-full w-full absolute !m-[0] top-[0rem] right-[0rem] bottom-[0rem] left-[0rem] rounded-[20px] bg-crimson cursor-pointer z-[1]"
               onClick={onCommentAvatarClick}
             />
-            {/* <div className="flex-[0.9501] flex flex-row items-start justify-start pt-[7.831rem] pb-[0rem] pr-[0.875rem] pl-[1rem] box-border relative min-w-[24.438rem] max-w-full mq825:min-w-full mq825:flex-1">
+            <div className="flex-[0.9501] flex flex-row items-start justify-start pt-[7.831rem] pb-[0rem] pr-[0.875rem] pl-[1rem] box-border relative w-[51%]  mq825:min-w-full mq825:flex-1">
               <div className="w-[35.681rem] flex flex-col items-start justify-start pt-[4.756rem] px-[0rem] pb-[0rem] box-border max-w-full">
                 <div
-                  className="self-stretch relative leading-[1.25rem] cursor-pointer z-[4]"
+                  className="self-stretch relative leading-[1.25rem] cursor-pointer z-[4] text-xs top-[-2rem] "
                   onClick={onCommentAvatarClick}
                 >
                   <span>
@@ -55,51 +59,56 @@ const PostContent = ({ className = "" }) => {
                       <span className="font-archivo-black whitespace-pre-wrap text-[0.875rem] text-darkgray">{`                  `}</span>
                     </span>
                   </span>
-                  <span className="font-archivo-black whitespace-pre-wrap text-[0.875rem] text-darkgray">
+                  <span className="font-archivo-black whitespace-pre-wrap text-xs text-darkgray">
                     <span>...See More</span>
                   </span>
                 </div>
               </div>
-              <div className="h-[17.544rem] w-full absolute !m-[0] top-[0rem] right-[0rem] left-[0rem]">
-                <div className="absolute top-[0rem] left-[0rem] rounded-t-21xl rounded-br-none rounded-bl-21xl bg-white w-full h-full z-[2]" />
+              <div className="h-[10.544rem] w-[108%] mq1426:w-[106%] left-[-1rem]  absolute !m-[0] top-[6rem] mq1525:top-[5rem] right-[0rem]">
+                <div className="absolute w-[100%] top-[0rem] left-[0rem] rounded-t-[10px] rounded-br-none rounded-bl-21xl bg-white  h-full z-[2]" />
                 <img
-                  className="absolute top-[8.769rem] left-[1.606rem] rounded-[50%] w-[3.125rem] h-[3.125rem] object-contain z-[3]"
+                  className="absolute top-[10%] left-[1.606rem] rounded-[50%] w-[3.125rem] h-[3.125rem] object-contain z-[3]"
                   alt=""
                   src="/user-avatar@2x.png"
                 />
+                <div className="relative text-[1.25rem] leading-[5rem] text-black inline-block min-w-[2.875rem] z-[9] ml-[-30.913rem] mq450:text-[1rem] mq450:leading-[4rem] top-[3%] left-[37rem]">
+                Greta
+              </div>
                 <img
-                  className="absolute top-[9.394rem] left-[29.138rem] w-[1.875rem] h-[1.875rem] object-contain z-[3]"
+                  className="absolute top-[2rem] left-[20rem] w-[1.25rem] h-[1.25rem] object-contain z-[9]"
                   alt=""
                   src="/speech-bubble@2x.png"
                 />
                 <img
-                  className="absolute top-[9.394rem] left-[25.969rem] w-[1.875rem] h-[1.875rem] object-contain z-[3]"
+                  className="absolute top-[2rem]  left-[18rem] w-[1.25rem] h-[1.25rem] object-contain z-[9]"
                   alt=""
                   src="/heart@2x.png"
                 />
                 <img
-                  className="absolute top-[9.394rem] left-[34.85rem] w-[1.875rem] h-[1.875rem] object-contain z-[3]"
+                  className="absolute top-[2rem]  left-[23.5rem] w-[1.25rem] h-[1.25rem] object-contain z-[9]"
                   alt=""
                   src="/share@2x.png"
                 />
                 <img
-                  className="absolute top-[9.55rem] left-[32.256rem] w-[1.875rem] h-[1.563rem] object-contain z-[3]"
+                  className="absolute top-[2rem]  left-[22rem] w-[1.25rem] h-[1.25rem] object-contain z-[9]"
                   alt=""
                   src="/bookmark@2x.png"
                 />
               </div>
-              <div className="relative text-[1.25rem] leading-[5rem] text-black inline-block min-w-[2.875rem] z-[3] ml-[-30.913rem] mq450:text-[1rem] mq450:leading-[4rem]">
-                Greta
-              </div>
-            </div> */}
-            {/* <img
-              className="h-[60%] w-[48%] absolute !m-[0] top-[2.513rem] left-[2.494rem] rounded-tl-21xl rounded-tr-none rounded-b-none object-cover cursor-pointer z-[3]"
+              
+            </div>
+            <img
+              className="h-[50%] w-[48%] absolute !m-[0] top-[2.513rem] left-[2.494rem] rounded-tl-21xl rounded-tr-none rounded-b-none object-cover cursor-pointer z-[3]"
               loading="lazy"
               alt=""
               src="/rectangle-4@2x.png"
               onClick={onCommentAvatarClick}
-            /> */}
-            <div className="flex-1 flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[1.293rem] box-border min-w-[24.438rem] max-w-full text-center text-[0.875rem] text-gray-100 mq825:min-w-full">
+            />
+
+
+
+
+            <div className="flex-1 flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[1.293rem] box-border   text-center text-[0.875rem] text-gray-100  ">
               <PurchaseDetails
                 image8="/image-8@2x.png"
                 image9="/image-9@2x.png"
@@ -120,7 +129,15 @@ const PostContent = ({ className = "" }) => {
               />
             </div>
           </div>
-          <div className="self-stretch flex flex-col items-start justify-start gap-[3.387rem] max-w-full text-black">
+
+
+
+
+
+
+
+
+          {/* <div className="self-stretch flex flex-col items-start justify-start gap-[3.387rem] max-w-full text-black">
             <div className="self-stretch rounded-21xl bg-chocolate flex flex-row items-start justify-start pt-[2.512rem] px-[3.437rem] pb-[1.218rem] box-border gap-[0.718rem] max-w-full z-[1] lg:flex-wrap">
               <div className="h-[38.831rem] w-[82.913rem] relative rounded-21xl bg-chocolate hidden max-w-full" />
               <div className="h-[35.1rem] flex-1 relative min-w-[24.438rem] max-w-full mq825:min-w-full">
@@ -274,7 +291,7 @@ const PostContent = ({ className = "" }) => {
                     gretaBought="Greta bought "
                     arrow="/arrow-4@2x.png"
                   /> */}
-                  <div className="self-stretch flex flex-row items-start justify-start gap-[1.112rem] mt-[-0.919rem] text-center text-[0.875rem] mq825:flex-wrap">
+                  {/* <div className="self-stretch flex flex-row items-start justify-start gap-[1.112rem] mt-[-0.919rem] text-center text-[0.875rem] mq825:flex-wrap">
                     <div className="flex-1 rounded-xl bg-white box-border flex flex-col items-start justify-start pt-[0.625rem] px-[0.437rem] pb-[0.875rem] gap-[0.443rem] min-w-[8.5rem] z-[4] text-left border-[1px] border-solid border-darkgray">
                       <div className="w-[13.15rem] h-[10.763rem] relative rounded-xl bg-white box-border hidden border-[1px] border-solid border-darkgray" />
                       <div className="self-stretch flex flex-row items-start justify-start py-[0rem] px-[0.312rem]">
@@ -440,7 +457,7 @@ const PostContent = ({ className = "" }) => {
                 </div>
               </div>
             </div>
-          </div>
+          </div>  */}
         </div>
         <div className="w-[82.975rem] flex flex-row items-start justify-center py-[0rem] pr-[0rem] pl-[0.625rem] box-border max-w-full text-[1.25rem] text-darkgray">
           <div className="relative leading-[5rem] font-semibold inline-block min-w-[5.438rem] z-[2] mq450:text-[1rem] mq450:leading-[4rem]">

@@ -8,7 +8,7 @@ import PropTypes from "prop-types";
 const PageContent = ({ className = "" }) => {
   return (
     <section
-      className={`absolute top-[47.175rem] left-[0.881rem] w-[117.731rem] flex flex-row flex-wrap items-end justify-start gap-[1.675rem] max-w-full text-left text-[1.25rem] text-black font-assistant ${className}`}
+      className={`absolute top-[37.175rem] right-[0.881rem] w-[80%] flex flex-row flex-wrap items-end justify-start gap-[1.675rem] max-w-full text-left text-[1.25rem] text-black font-assistant ${className}`}
     >
       {/* <PostBody
         image38="/image-381@2x.png"
@@ -29,14 +29,9 @@ const PageContent = ({ className = "" }) => {
               <img
                 className="absolute top-[0rem] left-[0.063rem] rounded-21xl w-full h-full object-cover z-[3]"
                 alt=""
-                src="/author-image@2x.png"
+                src="/Screenshot 2024-07-14 165121.png"
               />
-              <img
-                className="absolute top-[11.425rem] left-[27.388rem] w-[21.394rem] h-[33.444rem] z-[4]"
-                loading="lazy"
-                alt=""
-                src="/vector-1.svg"
-              />
+              
             </div>
             <div className="self-stretch bg-white flex flex-row items-start justify-start pt-[0rem] px-[1.562rem] pb-[1.831rem] box-border [row-gap:20px] max-w-full z-[2] mq1425:flex-wrap">
               <div className="h-[10.394rem] w-[75.563rem] relative bg-white hidden max-w-full" />
@@ -224,12 +219,12 @@ const PageContent = ({ className = "" }) => {
                           <img
                             className="absolute top-[0rem] left-[0rem] w-[1.25rem] h-[1.25rem] object-cover z-[4]"
                             alt=""
-                            src="/heart-4@2x.png"
+                            src="/heart-3@2x.png"
                           />
                           <img
                             className="absolute top-[0rem] left-[1.825rem] w-[1.25rem] h-[1.25rem] object-cover z-[4]"
                             alt=""
-                            src="/speech-bubble-4@2x.png"
+                            src="/speech-bubble@2x.png"
                           />
                         </div>
                       </div>
@@ -383,12 +378,7 @@ const PageContent = ({ className = "" }) => {
             </div>
           </div>
         </div>
-        <img
-          className="self-stretch h-[21.356rem] relative max-w-full overflow-hidden shrink-0 object-cover z-[1]"
-          loading="lazy"
-          alt=""
-          src="/image-411@2x.png"
-        />
+        
       </div>
     </section>
   );
