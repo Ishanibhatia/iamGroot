@@ -10,6 +10,7 @@ import SocialMediaPage from "./components/SocialMediaPage";
 import Prompt1 from "./components/Prompt1";
 import Prompt2 from "./components/Prompt2";
 import PostPage from "./components/PostPage";
+import { HashRouter } from "react-router-dom";
 
 function App() {
   const action = useNavigationType();
@@ -64,6 +65,7 @@ function App() {
   }, [pathname]);
 
   return (
+    <HashRouter>
     <Routes>
       <Route path="/" element={<SocialMediaPage />} />
       <Route path="/ai-home-page" element={<AIHomePage />} />
@@ -71,6 +73,7 @@ function App() {
       <Route path="/prompt3" element={<Prompt2 />} />
       <Route path="/postpage" element={<PostPage />} />
     </Routes>
+    </HashRouter>
   );
 }
 export default App;
