@@ -14,14 +14,16 @@ const Header1 = ({ className = "", link, image, image1, image2, image3 }) => {
       className={` absolute top-0 left-0 shadow-md bg-white w-full h-20 text-left text-lg text-gray-100 font-assistant ${className}`}
     >
       <div className="flex items-center justify-between h-full px-8">
-        {/* Logo */}
-        <div className="flex items-center">
-          <img
-            className="w-9 h-5 object-cover"
-            alt=""
-            src={link}
-          />
-        </div>
+          {/* Logo */}
+          <div className="flex items-center">
+            <a href="/">
+              <img
+                className="w-9 h-5 object-cover"
+                alt="Logo"
+                src={link}
+              />
+            </a>
+          </div>
 
         {/* Navigation Links */}
         <nav className="flex space-x-4">
@@ -31,6 +33,7 @@ const Header1 = ({ className = "", link, image, image1, image2, image3 }) => {
           <a className="tracking-wide leading-20 uppercase font-bold text-darkslategray text-xs no-underline hover:underline" href="#home-living">Home & Living</a>
           <a className="tracking-wide leading-20 uppercase font-bold text-darkslategray text-xs no-underline hover:underline" href="#beauty">Beauty</a>
           <a className="tracking-wide leading-20 uppercase font-bold text-darkslategray text-xs no-underline hover:underline" href="#studio">Studio</a>
+          <a className="tracking-wide leading-20 uppercase font-bold text-darkslategray text-xs no-underline hover:underline" href="/">Feed</a>
         </nav>
 
 

@@ -156,7 +156,7 @@ const PurchaseDetails = ({
       Recommendations
     </div>
           <div className="self-stretch rounded-xl  bg-white flex flex-row items-start justify-start pt-[0.625rem] px-[0.5rem] pb-[0.875rem] [row-gap:20px] z-[4] mt-[1.5rem] text-center text-[0.875rem] border-[1px] border-solid border-darkgray mq450:flex-wrap  ml-[40%] mq1525:ml-[60%] h-[7.763rem] w-[10.15rem]">
-            <div className="h-[10.763rem] w-[13.15rem] relative rounded-xl  bg-white box-border hidden border-[1px] border-solid border-darkgray left-[50%]" />
+            
             <div className="h-[8.063rem] w-[5.313rem] flex flex-col items-end justify-start gap-[0.525rem] min-w-[5.313rem] mq450:flex-1">
               <img
                 className="w-[5rem] h-[4rem] flex-1 relative  object-cover shrink-0 z-[5]"

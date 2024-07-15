@@ -37,75 +37,15 @@ const PageContent = ({ className = "" }) => {
               <div className="h-[10.394rem] w-[75.563rem] relative bg-white hidden max-w-full" />
               <div className="flex flex-col items-start justify-start pt-[0.937rem] px-[0rem] pb-[0rem]">
                 <img
-                  className="w-[3.125rem] h-[3.125rem] relative rounded-[50%] object-cover z-[3]"
+                  className="w-[100%] max-h-screen relative object-cover z-[3]"
                   loading="lazy"
                   alt=""
-                  src="/ellipse-7@2x.png"
+                  src="/Screenshot 2024-07-15 212903.png"
                 />
               </div>
-              <div className="flex-1 flex flex-col items-start justify-start min-w-[44.688rem] max-w-full lg:min-w-full">
-                <div className="self-stretch h-[4.063rem] flex flex-row items-start justify-start py-[0rem] pr-[0rem] pl-[1.062rem] box-border max-w-full lg:h-auto">
-                  <div className="flex-1 flex flex-row items-start justify-between shrink-0 max-w-full gap-[1.25rem] lg:flex-wrap">
-                    <div className="flex flex-row items-start justify-start gap-[2.075rem] max-w-full mq450:flex-wrap">
-                      <div className="relative leading-[5rem] z-[3] mq825:text-[1rem] mq825:leading-[4rem]">
-                        <span className="whitespace-pre-wrap">{`Greta  `}</span>
-                        <span className="text-darkgray">@myntra_greta477</span>
-                      </div>
-                      <div className="flex flex-col items-start justify-start pt-[1.562rem] px-[0rem] pb-[0rem] text-[0.875rem] text-white">
-                        <div className="rounded-31xl bg-crimson flex flex-row items-start justify-start py-[0.5rem] px-[0.875rem] whitespace-nowrap z-[3]">
-                          <div className="h-[1.875rem] w-[5rem] relative rounded-31xl bg-crimson hidden" />
-                          <div className="relative leading-[0.875rem] whitespace-pre-wrap inline-block min-w-[3.25rem] z-[4]">
-                            + Follow
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex flex-col items-start justify-start pt-[1.237rem] px-[0rem] pb-[0rem]">
-                      <div className="flex flex-row items-start justify-center gap-[0.718rem] mq450:flex-wrap">
-                        <div className="w-[2.45rem] flex flex-col items-start justify-start py-[0rem] pr-[0.562rem] pl-[0rem] box-border">
-                          <img
-                            className="w-[1.875rem] h-[1.875rem] relative object-cover z-[3]"
-                            loading="lazy"
-                            alt=""
-                            src="/heart@2x.png"
-                          />
-                        </div>
-                        <div className="w-[2.4rem] flex flex-col items-start justify-start py-[0rem] pr-[0.5rem] pl-[0rem] box-border">
-                          <img
-                            className="w-[1.875rem] h-[1.875rem] relative object-cover z-[3]"
-                            loading="lazy"
-                            alt=""
-                            src="/speech-bubble@2x.png"
-                          />
-                        </div>
-                        <div className="flex flex-col items-start justify-start pt-[0.156rem] px-[0rem] pb-[0rem]">
-                          <img
-                            className="w-[1.875rem] h-[1.563rem] relative object-cover z-[3]"
-                            loading="lazy"
-                            alt=""
-                            src="/bookmark@2x.png"
-                          />
-                        </div>
-                        <img
-                          className="h-[1.875rem] w-[1.875rem] relative object-cover min-h-[1.875rem] z-[3]"
-                          loading="lazy"
-                          alt=""
-                          src="/share@2x.png"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="self-stretch relative text-[1.125rem] leading-[1.125rem] shrink-0 z-[4]">
-                  <span>
-                    <span>{`It's amazing to see how plus-size models are getting more exposure in the fashion industry, social media, and photography. It's amazing to see how plus-size models are getting more exposure in the fashion industry, social media, and photography. `}</span>
-                    <span className="text-crimson font-archivo-black">{`#hashtag #hashtag #hashtag #hashtag #hashtag #hashtag #hashtag #hashtag #hashtag #hashtag #hashtag #hashtag #hashtag #hashtag #hashtag #hashtag #hashtag #hashtag #hashtag #hashtag #hashtag #hashtag                         `}</span>
-                  </span>
-                  <span className="text-crimson font-archivo-black">
-                    <span className="whitespace-pre-wrap">{`                  `}</span>
-                  </span>
-                </div>
-              </div>
+              
+
+
             </div>
             <div className="self-stretch flex flex-row items-start justify-start gap-[1.818rem] max-w-full text-[0.938rem] mq1425:flex-wrap">
               <div className="w-[36.138rem] rounded-tl-21xl rounded-tr-none rounded-br-none rounded-bl-21xl bg-white flex flex-col items-start justify-start pt-[1.875rem] px-[3.125rem] pb-[1.081rem] box-border gap-[2rem] min-w-[36.138rem] max-w-full z-[2] lg:min-w-full mq1425:flex-1">
@@ -119,118 +59,23 @@ const PageContent = ({ className = "" }) => {
                     heart="/heart-11@2x.png"
                     speechBubble="/speech-bubble-11@2x.png"
                   />
-                </div>
-                <div className="self-stretch flex flex-col items-start justify-start gap-[1.675rem] max-w-full">
-                  <div className="self-stretch flex flex-row items-start justify-start gap-[1.087rem] max-w-full mq450:flex-wrap">
-                    <img
-                      className="h-[3.125rem] w-[3.125rem] relative rounded-[50%] object-cover z-[3]"
-                      alt=""
-                      src="/commenter-image@2x.png"
-                    />
-                    <div className="flex-1 flex flex-col items-start justify-start pt-[0.193rem] px-[0rem] pb-[0rem] box-border min-w-[16.5rem] max-w-full">
-                      <div className="self-stretch flex flex-col items-start justify-start gap-[0.593rem] max-w-full">
-                        <div className="flex flex-row items-start justify-start py-[0rem] px-[0.375rem]">
-                          <div className="flex flex-row items-end justify-start gap-[1.362rem] mq450:flex-wrap">
-                            <div className="flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[0.156rem]">
-                              <div className="relative leading-[0.938rem] z-[3]">
-                                <span className="whitespace-pre-wrap">{`Panda  `}</span>
-                                <span className="text-darkgray">
-                                  @myntra_panda707
-                                </span>
-                              </div>
-                            </div>
-                            <div className="rounded-31xl bg-crimson flex flex-row items-start justify-start py-[0.375rem] px-[0.437rem] whitespace-nowrap z-[3] text-[0.625rem] text-white">
-                              <div className="h-[1.375rem] w-[3.2rem] relative rounded-31xl bg-crimson hidden" />
-                              <div className="relative leading-[0.625rem] whitespace-pre-wrap inline-block min-w-[2.313rem] z-[4]">
-                                + Follow
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="self-stretch rounded-3xs bg-white box-border flex flex-row items-start justify-start pt-[0.5rem] px-[1.125rem] pb-[0.75rem] gap-[2.168rem] max-w-full z-[3] text-[1.125rem] border-[1px] border-solid border-darkgray mq450:flex-wrap">
-                          <div className="h-[6.25rem] w-[25.406rem] relative rounded-3xs bg-white box-border hidden max-w-full border-[1px] border-solid border-darkgray" />
-                          <div className="flex flex-col items-start justify-start pt-[0.25rem] px-[0rem] pb-[0rem]">
-                            <div className="relative leading-[1.125rem] z-[4]">
-                              <p className="m-0">{`Lorem ipsum dolor sit amet, `}</p>
-                              <p className="m-0">{`consectetur adipiscing elit, sed do `}</p>
-                              <p className="m-0">
-                                eiusmod tempor incididunt ut labore
-                              </p>
-                              <p className="m-0"> et dolore magna aliqua.</p>
-                            </div>
-                          </div>
-                          <div className="h-[1.25rem] w-[3.075rem] relative">
-                            <img
-                              className="absolute top-[0rem] left-[0rem] w-[1.25rem] h-[1.25rem] object-cover z-[4]"
-                              alt=""
-                              src="/heart-21@2x.png"
-                            />
-                            <img
-                              className="absolute top-[0rem] left-[1.825rem] w-[1.25rem] h-[1.25rem] object-cover z-[4]"
-                              alt=""
-                              src="/speech-bubble-21@2x.png"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                   <UserComment
                     commenterImage="/commenter-image@2x.png"
-                    heart="/heart-3@2x.png"
-                    speechBubble="/speech-bubble-3@2x.png"
+                    heart="/heart-11@2x.png"
+                    speechBubble="/speech-bubble-11@2x.png"
+                  />
+                  <UserComment
+                    commenterImage="/commenter-image@2x.png"
+                    heart="/heart-11@2x.png"
+                    speechBubble="/speech-bubble-11@2x.png"
+                  />
+                  <UserComment
+                    commenterImage="/commenter-image@2x.png"
+                    heart="/heart-11@2x.png"
+                    speechBubble="/speech-bubble-11@2x.png"
                   />
                 </div>
-                <div className="self-stretch flex flex-row items-start justify-start gap-[1.087rem] max-w-full mq450:flex-wrap">
-                  <img
-                    className="h-[3.125rem] w-[3.125rem] relative rounded-[50%] object-cover z-[3]"
-                    alt=""
-                    src="/commenter-image@2x.png"
-                  />
-                  <div className="flex-1 flex flex-col items-start justify-start pt-[0.2rem] px-[0rem] pb-[0rem] box-border min-w-[16.5rem] max-w-full">
-                    <div className="self-stretch flex flex-col items-start justify-start gap-[0.587rem] max-w-full">
-                      <div className="flex flex-row items-start justify-start py-[0rem] px-[0.375rem]">
-                        <div className="flex flex-row items-end justify-start gap-[1.362rem] mq450:flex-wrap">
-                          <div className="flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[0.162rem]">
-                            <div className="relative leading-[0.938rem] z-[3]">
-                              <span className="whitespace-pre-wrap">{`Panda  `}</span>
-                              <span className="text-darkgray">
-                                @myntra_panda707
-                              </span>
-                            </div>
-                          </div>
-                          <div className="rounded-31xl bg-crimson flex flex-row items-start justify-start py-[0.375rem] px-[0.437rem] whitespace-nowrap z-[3] text-[0.625rem] text-white">
-                            <div className="h-[1.375rem] w-[3.2rem] relative rounded-31xl bg-crimson hidden" />
-                            <div className="relative leading-[0.625rem] whitespace-pre-wrap inline-block min-w-[2.313rem] z-[4]">
-                              + Follow
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="self-stretch rounded-3xs bg-white box-border flex flex-row items-start justify-start pt-[0.5rem] px-[1.125rem] pb-[0.937rem] gap-[3.481rem] max-w-full z-[3] text-[1.125rem] border-[1px] border-solid border-darkgray mq450:flex-wrap">
-                        <div className="h-[4.313rem] w-[25.406rem] relative rounded-3xs bg-white box-border hidden max-w-full border-[1px] border-solid border-darkgray" />
-                        <div className="flex flex-col items-start justify-start pt-[0.387rem] px-[0rem] pb-[0rem]">
-                          <div className="relative leading-[1.125rem] z-[4]">
-                            <p className="m-0">{`Lorem ipsum dolor sit amet, `}</p>
-                            <p className="m-0">{`consectetur adipiscing elit, sed do `}</p>
-                          </div>
-                        </div>
-                        <div className="h-[1.25rem] w-[3.075rem] relative">
-                          <img
-                            className="absolute top-[0rem] left-[0rem] w-[1.25rem] h-[1.25rem] object-cover z-[4]"
-                            alt=""
-                            src="/heart-3@2x.png"
-                          />
-                          <img
-                            className="absolute top-[0rem] left-[1.825rem] w-[1.25rem] h-[1.25rem] object-cover z-[4]"
-                            alt=""
-                            src="/speech-bubble@2x.png"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
               <div className="flex-1 flex flex-col items-start justify-start gap-[2.525rem] min-w-[24.438rem] max-w-full text-center text-[0.875rem] text-gray-100 mq450:min-w-full">
                 <div className="self-stretch rounded-tl-none rounded-tr-21xl rounded-b-none bg-white flex flex-row items-end justify-start pt-[0rem] pb-[1.418rem] pr-[0rem] pl-[1.5rem] box-border gap-[1.118rem] max-w-full z-[2] mq450:flex-wrap mq450:pl-[1.25rem] mq450:pt-[1.25rem] mq450:pr-[1.25rem] mq450:box-border">
@@ -348,7 +193,7 @@ const PageContent = ({ className = "" }) => {
                   <div className="w-[37.606rem] h-[16.975rem] relative rounded-t-none rounded-br-21xl rounded-bl-none bg-white hidden max-w-full z-[1]" />
                   <FrameComponent1
                     gretaBought="Recommendations"
-                    arrow="/arrow-13@2x.png"
+                    // arrow="/arrow-13@2x.png"
                   />
                   <div className="self-stretch flex flex-row items-start justify-start gap-[1.118rem] mt-[-0.919rem] mq450:flex-wrap">
                     <ProductCarousel

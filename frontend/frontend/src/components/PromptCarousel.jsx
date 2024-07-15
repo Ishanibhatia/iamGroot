@@ -19,14 +19,17 @@ const PromptCarousel = ({ className = "" }) => {
         className="absolute top-[12%] left-[0rem] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-white w-full h-full"
         data-scroll-to="carouselIndicator"
       />
-      
-      
-      <img
-        className="absolute top-[13%] left-[1.85rem] w-[1.875rem] h-[1.875rem] object-contain z-[1]"
-        loading="lazy"
-        alt=""
-        src="/arrow@2x.png"
-      />
+
+
+      <a href="/">
+        <img
+          className="absolute top-[13%] left-[1.85rem] w-[1.875rem] h-[1.875rem] object-contain z-[1]"
+          loading="lazy"
+          alt=""
+          src="/arrow@2x.png"
+        />
+      </a>
+
       <div className="absolute top-[13%] left-[15.475rem] w-[5rem] h-[1.875rem] whitespace-nowrap">
         <div
           className="absolute top-[0rem] left-[0rem] rounded-31xl bg-crimson w-full h-full cursor-pointer z-[1]"
@@ -59,7 +62,7 @@ const PromptCarousel = ({ className = "" }) => {
           Prompt 3
         </div>
       </div>
-     
+
 
 
       <h3 className="m-0 absolute top-[44%] left-[1.85rem] text-[1.25rem] leading-[1.25rem] font-semibold font-inherit text-gray-100 inline-block min-w-[5.313rem] z-[1] mq1425:text-[1rem] mq1425:leading-[1rem]">
