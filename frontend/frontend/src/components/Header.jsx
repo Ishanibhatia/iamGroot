@@ -54,7 +54,7 @@ const Header = ({ className = "", link, image, image1, image2, image3 }) => {
             <img
               className="w-4 h-4 object-cover ml-2"
               alt=""
-              src={"/Screenshot 2024-07-13 001206.png"}
+              src={"./Screenshot 2024-07-13 001206.png"}
             />
           </div>
         </div>
@@ -79,15 +79,7 @@ const Header = ({ className = "", link, image, image1, image2, image3 }) => {
             </div>
           </div>
 
-          {/* Profile */}
-          {/* <div className="flex items-center space-x-2">
-            <img
-              className="w-6 h-6 object-cover"
-              alt=""
-              src={image}
-            />
-            <a className="text-xs font-bold text-black" href="#profile">Profile</a>
-          </div> */}
+          
 
           {/* Wishlist */}
           <div className="flex items-center space-x-2 mr-7">
@@ -104,7 +96,7 @@ const Header = ({ className = "", link, image, image1, image2, image3 }) => {
             <img
               className="w-5 h-5 object-cover"
               alt=""
-              src={"/image-3@2x.png"}
+              src={"./image-3@2x.png"}
             />
             <a className="text-xs font-bold text-black no-underline hover:underline" href="#bag">Bag</a>
 
@@ -223,9 +215,9 @@ const Header = ({ className = "", link, image, image1, image2, image3 }) => {
       </b>
 
       <PostBody
-        image38="/image-38@2x.png"
-        image39="/image-39@2x.png"
-        image40="/image-40@2x.png"
+        image38="./image-38@2x.png"
+        image39="./image-39@2x.png"
+        image40="./image-40@2x.png"
       />
 
     </header>

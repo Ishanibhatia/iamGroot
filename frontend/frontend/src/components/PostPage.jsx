@@ -10,11 +10,11 @@ const PostPage = () => {
     <div>
 
       <Header
-        link="/link@2x.png"
-        image="/image@2x.png"
-        image1="/image-1@2x.png"
-        image2="/image-2@2x.png"
-        image3="/image-3@2x.png"
+        link="./link@2x.png"
+        image="./image@2x.png"
+        image1="./image-1@2x.png"
+        image2="./image-2@2x.png"
+        image3="./image-3@2x.png"
       />
 
 
@@ -24,48 +24,48 @@ const PostPage = () => {
         </a>
         <div className="w-full flex flex-row flex-wrap items-end justify-start gap-[1.743rem]">
           <FrameComponent2
-            image2="image-5@2x.png"
-            previewAvatar="/ellipse-2@2x.png"
+            image2="./image-5@2x.png"
+            previewAvatar="./ellipse-2@2x.png"
             userName="User1"
           />
           <FrameComponent2
-            image2="image-5@2x.png"
-            previewAvatar="/ellipse-2@2x.png"
+            image2="./image-5@2x.png"
+            previewAvatar="./ellipse-2@2x.png"
             userName="User2"
           />
           <FrameComponent2
-            image2="image-5@2x.png"
-            previewAvatar="/ellipse-2@2x.png"
+            image2="./image-5@2x.png"
+            previewAvatar="./ellipse-2@2x.png"
             userName="User3"
           />
           <FrameComponent2
-            image2="image-5@2x.png"
-            previewAvatar="/ellipse-2@2x.png"
+            image2="./image-5@2x.png"
+            previewAvatar="./ellipse-2@2x.png"
             userName="User4"
           />
           <FrameComponent2
-            image2="image-5@2x.png"
-            previewAvatar="/ellipse-2@2x.png"
+            image2="./image-5@2x.png"
+            previewAvatar="./ellipse-2@2x.png"
             userName="User5"
           />
           {/* Hidden by default, shown on large screens */}
           <FrameComponent2
             className="hidden between1500And2000:block"
-            image2="image-5@2x.png"
-            previewAvatar="/ellipse-2@2x.png"
+            image2="./image-5@2x.png"
+            previewAvatar="./ellipse-2@2x.png"
             userName="User6"
           />
           <FrameComponent2
             className="hidden between1700And2000:block"
-            image2="image-5@2x.png"
-            previewAvatar="/ellipse-2@2x.png"
+            image2="./image-5@2x.png"
+            previewAvatar="./ellipse-2@2x.png"
             userName="User6"
           />
           {/* Icon */}
           <img
             className="absolute top-[12.019rem] bottom-0 right-0 transform translate-x-[25%] -translate-y-1/2 w-auto h-auto max-w-full max-h-full object-cover"
             alt=""
-            src="/plus-41@2x.png"
+            src="./plus-41@2x.png"
           />
 
         </div>

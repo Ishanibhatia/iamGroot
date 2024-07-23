@@ -26,7 +26,7 @@ const PromptCarousel2 = ({ className = "" }) => {
     className="absolute top-[13%] left-[1.85rem] w-[1.875rem] h-[1.875rem] object-contain z-[1]"
     loading="lazy"
     alt=""
-    src="/arrow@2x.png"
+    src="./arrow@2x.png"
   />
 </a>
       <div className="absolute top-[13%] left-[15.475rem] w-[5rem] h-[1.875rem] whitespace-nowrap">

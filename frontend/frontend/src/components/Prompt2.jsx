@@ -9,11 +9,11 @@ const Prompt2 = () => {
     <div>
       
       <Header1
-        link="/link@2x.png"
-        image="/image@2x.png"
-        image1="/image-1@2x.png"
-        image2="/image-2@2x.png"
-        image3="/image-3@2x.png"
+        link="./link@2x.png"
+        image="./image@2x.png"
+        image1="./image-1@2x.png"
+        image2="./image-2@2x.png"
+        image3="./image-3@2x.png"
       />
       
       <main className="self-stretch flex flex-row items-start justify-start py-[0rem] pr-[1.687rem] pl-[0rem] box-border gap-[3.912rem] max-w-full mq450:gap-[1rem] mq825:gap-[1.938rem] mq825:pl-[1.688rem] mq825:box-border">
@@ -45,13 +45,13 @@ const Prompt2 = () => {
                       <img
                         className="h-[20rem] w-[20rem] absolute !m-[0] left-[10%] top-[5rem] rounded-[20px] object-cover z-[1]"
                         alt=""
-                        src="/designer-1-1@2x.png"
+                        src="./designer-1-1@2x.png"
                       />
 
 <img
                         className="h-[20rem] w-[20rem] absolute !m-[0] top-[5rem] left-[25rem] rounded-[20px] object-cover z-[1]"
                         alt=""
-                        src="/designer-1-2@2x.png"
+                        src="./designer-1-2@2x.png"
                       />
 
                       <div className="self-stretch flex flex-col items-start justify-start">
@@ -68,7 +68,7 @@ const Prompt2 = () => {
                             className="absolute w-[calc(100%_-_20px)] top-[0.625rem] right-[0.625rem] left-[0.625rem] max-w-full overflow-hidden h-[1.125rem] object-cover z-[3]"
                             loading="lazy"
                             alt=""
-                            src="/pencil@2x.png"
+                            src="./pencil@2x.png"
                           />
                         </div>
                       </div>
@@ -79,7 +79,7 @@ const Prompt2 = () => {
                             className="absolute w-[calc(100%_-_20px)] top-[0.625rem] right-[0.625rem] left-[0.625rem] max-w-full overflow-hidden h-[1.125rem] object-cover z-[3]"
                             loading="lazy"
                             alt=""
-                            src="/pencil@2x.png"
+                            src="./pencil@2x.png"
                           />
                         </div>
                       </div>
@@ -91,7 +91,7 @@ const Prompt2 = () => {
 
                   
                     <TypePrompt
-                      arrow="/arrow-11@2x.png"
+                      arrow="./arrow-11@2x.png"
                       className="mt-[-8rem]"
                    />
                   
@@ -102,12 +102,12 @@ const Prompt2 = () => {
         </section>
         <div className="w-[9.844rem] flex flex-col items-start justify-start pt-[1.437rem] px-[0rem] pb-[0rem] box-border absolute top-0 right-0 z-[-1]">
           <ImageGrid
-            shoppingBagFull="/shopping-bag-full@2x.png"
-            sunGlasses="/sun-glasses@2x.png"
-            shirt="/shirt@2x.png"
-            tShirt="/tshirt@2x.png"
-            pairOfSneakers="/pair-of-sneakers@2x.png"
-            sneakers="/sneakers@2x.png"
+            shoppingBagFull="./shopping-bag-full@2x.png"
+            sunGlasses="./sun-glasses@2x.png"
+            shirt="./shirt@2x.png"
+            tShirt="./tshirt@2x.png"
+            pairOfSneakers="./pair-of-sneakers@2x.png"
+            sneakers="./sneakers@2x.png"
           />
         </div>
       </main>

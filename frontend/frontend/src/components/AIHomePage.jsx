@@ -20,17 +20,13 @@ const AIHomePage = () => {
     <div>
 
       <Header1
-        link="/link@2x.png"
-        image="/image@2x.png"
-        image1="/image-1@2x.png"
-        image2="/image-2@2x.png"
-        image3="/image-3@2x.png"
+        link="./link@2x.png"
+        image="./image@2x.png"
+        image1="./image-1@2x.png"
+        image2="./image-2@2x.png"
+        image3="./image-3@2x.png"
       />
-      {/* <img
-        className="w-[4.069rem] h-[4.069rem] absolute !m-[0] top-[29.088rem] right-[5.475rem] shrink-0 object-contain z-[1]"
-        alt=""
-        src="/denim-shorts@2x.png"
-      /> */}
+      
 
 
 

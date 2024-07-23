@@ -18,11 +18,6 @@ const PostContent = ({ className = "" }) => {
     <section
       className={`absolute top-[35.175rem] left-[25%] w-[70%] flex flex-row flex-wrap items-end justify-start gap-[1rem] text-left text-[1.25rem] text-gray-100 font-assistant ${className}`}
     >
-      {/* <PostBody
-        image38="/image-38@2x.png"
-        image39="/image-39@2x.png"
-        image40="/image-40@2x.png"
-      /> */}
 
 
       <div className="flex-1 w-[80%] flex flex-col items-center justify-start pt-[1.143rem] pb-[0.712rem] pr-[1.25rem] pl-[1.625rem] box-border relative  text-[0.938rem] text-crimson">
@@ -69,7 +64,7 @@ const PostContent = ({ className = "" }) => {
                 <img
                   className="absolute top-[10%] left-[1.606rem] rounded-[50%] w-[3.125rem] h-[3.125rem] object-contain z-[3]"
                   alt=""
-                  src="/user-avatar@2x.png"
+                  src="./user-avatar@2x.png"
                 />
                 <div className="relative text-[1.25rem] leading-[5rem] text-black inline-block min-w-[2.875rem] z-[9] ml-[-30.913rem] mq450:text-[1rem] mq450:leading-[4rem] top-[3%] left-[37rem]">
                   Greta
@@ -77,22 +72,22 @@ const PostContent = ({ className = "" }) => {
                 <img
                   className="absolute top-[2rem] left-[20rem] w-[1.25rem] h-[1.25rem] object-contain z-[9]"
                   alt=""
-                  src="/speech-bubble@2x.png"
+                  src="./speech-bubble@2x.png"
                 />
                 <img
                   className="absolute top-[2rem]  left-[18rem] w-[1.25rem] h-[1.25rem] object-contain z-[9]"
                   alt=""
-                  src="/heart@2x.png"
+                  src="./heart@2x.png"
                 />
                 <img
                   className="absolute top-[2rem]  left-[23.5rem] w-[1.25rem] h-[1.25rem] object-contain z-[9]"
                   alt=""
-                  src="/share@2x.png"
+                  src="./share@2x.png"
                 />
                 <img
                   className="absolute top-[2rem]  left-[22rem] w-[1.25rem] h-[1.25rem] object-contain z-[9]"
                   alt=""
-                  src="/bookmark@2x.png"
+                  src="./bookmark@2x.png"
                 />
               </div>
 
@@ -101,7 +96,7 @@ const PostContent = ({ className = "" }) => {
               className="h-[50%] w-[48%] absolute !m-[0] top-[2.513rem] left-[2.494rem] rounded-tl-21xl rounded-tr-none rounded-b-none object-cover cursor-pointer z-[3]"
               loading="lazy"
               alt=""
-              src="/rectangle-4@2x.png"
+              src="./rectangle-4@2x.png"
               onClick={onCommentAvatarClick}
             />
 
@@ -123,7 +118,7 @@ const PostContent = ({ className = "" }) => {
                         className="w-[10rem] flex-1 relative max-h-full object-cover shrink-0 z-[5]"
                         loading="lazy"
                         alt=""
-                        src="/Screenshot 2024-07-14 195801.png"
+                        src="./Screenshot 2024-07-14 195801.png"
                       />
                 </div>
                 <div className="flex-1 flex flex-col items-start justify-start min-w-[8.5rem] text-left text-[1.25rem]">
@@ -132,7 +127,7 @@ const PostContent = ({ className = "" }) => {
                         className="w-[10rem] flex-1 relative max-h-full object-cover shrink-0 z-[5]"
                         loading="lazy"
                         alt=""
-                        src="/Screenshot 2024-07-14 195801.png"
+                        src="./Screenshot 2024-07-14 195801.png"
                       />
                 </div>
               </div>
@@ -146,7 +141,7 @@ const PostContent = ({ className = "" }) => {
                         className="w-[10rem] flex-1 relative max-h-full object-cover shrink-0 z-[5]"
                         loading="lazy"
                         alt=""
-                        src="/Screenshot 2024-07-14 201100.png"
+                        src="./Screenshot 2024-07-14 201100.png"
                       />
                 </div>
                 <div className="flex-1 flex flex-col items-start justify-start min-w-[8.5rem] text-left text-[1.25rem]">
@@ -155,7 +150,7 @@ const PostContent = ({ className = "" }) => {
                         className="w-[10rem] flex-1 relative max-h-full object-cover shrink-0 z-[5]"
                         loading="lazy"
                         alt=""
-                        src="/Screenshot 2024-07-14 201052.png"
+                        src="./Screenshot 2024-07-14 201052.png"
                       />
                 </div>
               </div>
@@ -237,7 +232,7 @@ const PostContent = ({ className = "" }) => {
                 <img
                   className="absolute top-[10%] left-[1.606rem] rounded-[50%] w-[3.125rem] h-[3.125rem] object-contain z-[3]"
                   alt=""
-                  src="/user-avatar1@2x.png"
+                  src="./user-avatar1@2x.png"
                 />
                 <div className="relative text-[1.25rem] leading-[5rem] text-black inline-block min-w-[2.875rem] z-[9] ml-[-30.913rem] mq450:text-[1rem] mq450:leading-[4rem] top-[3%] left-[37rem]">
                 Raj Vikramaditya
@@ -245,22 +240,22 @@ const PostContent = ({ className = "" }) => {
                 <img
                   className="absolute top-[2rem] left-[20rem] w-[1.25rem] h-[1.25rem] object-contain z-[9]"
                   alt=""
-                  src="/speech-bubble-1@2x.png"
+                  src="./speech-bubble-1@2x.png"
                 />
                 <img
                   className="absolute top-[2rem]  left-[18rem] w-[1.25rem] h-[1.25rem] object-contain z-[9]"
                   alt=""
-                  src="/heart-1@2x.png"
+                  src="./heart-1@2x.png"
                 />
                 <img
                   className="absolute top-[2rem]  left-[23.5rem] w-[1.25rem] h-[1.25rem] object-contain z-[9]"
                   alt=""
-                  src="/share-1@2x.png"
+                  src="./share-1@2x.png"
                 />
                 <img
                   className="absolute top-[2rem]  left-[22rem] w-[1.25rem] h-[1.25rem] object-contain z-[9]"
                   alt=""
-                  src="/bookmark-1@2x.png"
+                  src="./bookmark-1@2x.png"
                 />
               </div>
 
@@ -269,7 +264,7 @@ const PostContent = ({ className = "" }) => {
               className="h-[50%] w-[48%] absolute !m-[0] top-[2.513rem] left-[2.494rem] rounded-tl-21xl rounded-tr-none rounded-b-none object-cover cursor-pointer z-[3]"
               loading="lazy"
               alt=""
-              src="/rectangle-18@2x.png"
+              src="./rectangle-18@2x.png"
               onClick={onCommentAvatarClick}
             />
 
@@ -291,7 +286,7 @@ const PostContent = ({ className = "" }) => {
                         className="w-[10rem] flex-1 relative max-h-full object-cover shrink-0 z-[5]"
                         loading="lazy"
                         alt=""
-                        src="/Screenshot 2024-07-14 203708.png"
+                        src="./Screenshot 2024-07-14 203708.png"
                       />
                 </div>
                 <div className="flex-1 flex flex-col items-start justify-start min-w-[8.5rem] text-left text-[1.25rem]">
@@ -300,7 +295,7 @@ const PostContent = ({ className = "" }) => {
                         className="w-[10rem] flex-1 relative max-h-full object-cover shrink-0 z-[5]"
                         loading="lazy"
                         alt=""
-                        src="/Screenshot 2024-07-14 203702.png"
+                        src="./Screenshot 2024-07-14 203702.png"
 // "D:\We-For-She-Myntra\frontend\frontend\public\Screenshot 2024-07-14 203702.png""
                       />
                 </div>
@@ -315,7 +310,7 @@ const PostContent = ({ className = "" }) => {
                         className="w-[10rem] flex-1 relative max-h-full object-cover shrink-0 z-[5]"
                         loading="lazy"
                         alt=""
-                        src="/Screenshot 2024-07-14 203702.png"
+                        src="./Screenshot 2024-07-14 203702.png"
                       />
                 </div>
                 <div className="flex-1 flex flex-col items-start justify-start min-w-[8.5rem] text-left text-[1.25rem]">
@@ -324,7 +319,7 @@ const PostContent = ({ className = "" }) => {
                         className="w-[10rem] flex-1 relative max-h-full object-cover shrink-0 z-[5]"
                         loading="lazy"
                         alt=""
-                        src="/Screenshot 2024-07-14 203708.png"
+                        src="./Screenshot 2024-07-14 203708.png"
                       />
                 </div>
               </div>
@@ -412,7 +407,7 @@ const PostContent = ({ className = "" }) => {
                 <img
                   className="absolute top-[10%] left-[1.606rem] rounded-[50%] w-[3.125rem] h-[3.125rem] object-contain z-[3]"
                   alt=""
-                  src="/ellipse-9@2x.png"
+                  src="./ellipse-9@2x.png"
                 />
                 <div className="relative text-[1.25rem] leading-[5rem] text-black inline-block min-w-[2.875rem] z-[9] ml-[-30.913rem] mq450:text-[1rem] mq450:leading-[4rem] top-[3%] left-[37rem]">
                 Cleopetra
@@ -420,22 +415,22 @@ const PostContent = ({ className = "" }) => {
                 <img
                   className="absolute top-[2rem] left-[20rem] w-[1.25rem] h-[1.25rem] object-contain z-[9]"
                   alt=""
-                  src="/speech-bubble-2@2x.png"
+                  src="./speech-bubble-2@2x.png"
                 />
                 <img
                   className="absolute top-[2rem]  left-[18rem] w-[1.25rem] h-[1.25rem] object-contain z-[9]"
                   alt=""
-                  src="/heart-2@2x.png"
+                  src="./heart-2@2x.png"
                 />
                 <img
                   className="absolute top-[2rem]  left-[23.5rem] w-[1.25rem] h-[1.25rem] object-contain z-[9]"
                   alt=""
-                  src="/share-2@2x.png"
+                  src="./share-2@2x.png"
                 />
                 <img
                   className="absolute top-[2rem]  left-[22rem] w-[1.25rem] h-[1.25rem] object-contain z-[9]"
                   alt=""
-                  src="/bookmark-2@2x.png"
+                  src="./bookmark-2@2x.png"
                 />
               </div>
 
@@ -444,7 +439,7 @@ const PostContent = ({ className = "" }) => {
               className="h-[50%] w-[48%] absolute !m-[0] top-[2.513rem] left-[2.494rem] rounded-tl-21xl rounded-tr-none rounded-b-none object-cover cursor-pointer z-[3]"
               loading="lazy"
               alt=""
-              src="/rectangle-29@2x.png"
+              src="./rectangle-29@2x.png"
               onClick={onCommentAvatarClick}
             />
 
@@ -466,7 +461,7 @@ const PostContent = ({ className = "" }) => {
                         className="w-[10rem] flex-1 relative max-h-full object-cover shrink-0 z-[5]"
                         loading="lazy"
                         alt=""
-                        src="/Screenshot 2024-07-14 204644.png"
+                        src="./Screenshot 2024-07-14 204644.png"
                       />
                 </div>
                 <div className="flex-1 flex flex-col items-start justify-start min-w-[8.5rem] text-left text-[1.25rem]">
@@ -475,7 +470,7 @@ const PostContent = ({ className = "" }) => {
                         className="w-[10rem] flex-1 relative max-h-full object-cover shrink-0 z-[5]"
                         loading="lazy"
                         alt=""
-                        src="/Screenshot 2024-07-14 204651.png"
+                        src="./Screenshot 2024-07-14 204651.png"
 
                       />
                 </div>
@@ -490,7 +485,7 @@ const PostContent = ({ className = "" }) => {
                         className="w-[10rem] flex-1 relative max-h-full object-cover shrink-0 z-[5]"
                         loading="lazy"
                         alt=""
-                        src="/Screenshot 2024-07-14 204651.png"
+                        src="./Screenshot 2024-07-14 204651.png"
                       />
                 </div>
                 <div className="flex-1 flex flex-col items-start justify-start min-w-[8.5rem] text-left text-[1.25rem]">
@@ -499,7 +494,7 @@ const PostContent = ({ className = "" }) => {
                         className="w-[10rem] flex-1 relative max-h-full object-cover shrink-0 z-[5]"
                         loading="lazy"
                         alt=""
-                        src="/Screenshot 2024-07-14 204644.png"
+                        src="./Screenshot 2024-07-14 204644.png"
                       />
                 </div>
               </div>

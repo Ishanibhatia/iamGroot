@@ -24,12 +24,12 @@ const PageContent = ({ className = "" }) => {
               <img
                 className="absolute top-[0rem] left-[0rem] rounded-21xl w-full h-full object-cover hidden z-[2]"
                 alt=""
-                src="/rectangle-4@2x.png"
+                src="./rectangle-4@2x.png"
               />
               <img
                 className="absolute top-[0rem] left-[0.063rem] rounded-21xl w-full h-full object-cover z-[3]"
                 alt=""
-                src="/Screenshot 2024-07-14 165121.png"
+                src="./Screenshot 2024-07-14 165121.png"
               />
               
             </div>
@@ -40,7 +40,7 @@ const PageContent = ({ className = "" }) => {
                   className="w-[100%] max-h-screen relative object-cover z-[3]"
                   loading="lazy"
                   alt=""
-                  src="/Screenshot 2024-07-15 212903.png"
+                  src="./Screenshot 2024-07-15 212903.png"
                 />
               </div>
               
@@ -55,24 +55,24 @@ const PageContent = ({ className = "" }) => {
                     Comments
                   </div>
                   <UserComment
-                    commenterImage="/commenter-image@2x.png"
-                    heart="/heart-11@2x.png"
-                    speechBubble="/speech-bubble-11@2x.png"
+                    commenterImage="./commenter-image@2x.png"
+                    heart="./heart-11@2x.png"
+                    speechBubble="./speech-bubble-11@2x.png"
                   />
                   <UserComment
-                    commenterImage="/commenter-image@2x.png"
-                    heart="/heart-11@2x.png"
-                    speechBubble="/speech-bubble-11@2x.png"
+                    commenterImage="./commenter-image@2x.png"
+                    heart="./heart-11@2x.png"
+                    speechBubble="./speech-bubble-11@2x.png"
                   />
                   <UserComment
-                    commenterImage="/commenter-image@2x.png"
-                    heart="/heart-11@2x.png"
-                    speechBubble="/speech-bubble-11@2x.png"
+                    commenterImage="./commenter-image@2x.png"
+                    heart="./heart-11@2x.png"
+                    speechBubble="./speech-bubble-11@2x.png"
                   />
                   <UserComment
-                    commenterImage="/commenter-image@2x.png"
-                    heart="/heart-11@2x.png"
-                    speechBubble="/speech-bubble-11@2x.png"
+                    commenterImage="./commenter-image@2x.png"
+                    heart="./heart-11@2x.png"
+                    speechBubble="./speech-bubble-11@2x.png"
                   />
                 </div>
                 
@@ -89,7 +89,7 @@ const PageContent = ({ className = "" }) => {
                           className="w-[5rem] flex-1 relative max-h-full object-cover shrink-0 z-[5]"
                           loading="lazy"
                           alt=""
-                          src="/image-81@2x.png"
+                          src="./image-81@2x.png"
                         />
                         <div className="self-stretch relative leading-[0.938rem] shrink-0 z-[5]">
                           Plain chiffon Maxi dress
@@ -102,13 +102,13 @@ const PageContent = ({ className = "" }) => {
                               className="h-[6.663rem] w-[5rem] relative object-cover z-[6]"
                               loading="lazy"
                               alt=""
-                              src="/image-91@2x.png"
+                              src="./image-91@2x.png"
                             />
                             <div className="flex flex-col items-start justify-start pt-[2.081rem] px-[0rem] pb-[0rem]">
                               <img
                                 className="w-[1.25rem] h-[2.5rem] relative object-cover z-[5]"
                                 alt=""
-                                src="/plus-13@2x.png"
+                                src="./plus-13@2x.png"
                               />
                             </div>
                           </div>
@@ -133,7 +133,7 @@ const PageContent = ({ className = "" }) => {
                         className="w-[5rem] flex-1 relative max-h-full object-cover shrink-0 z-[4]"
                         loading="lazy"
                         alt=""
-                        src="/image-101@2x.png"
+                        src="./image-101@2x.png"
                       />
                       <div className="self-stretch relative leading-[0.938rem] shrink-0 z-[4]">
                         Plain chiffon Maxi dress
@@ -145,13 +145,13 @@ const PageContent = ({ className = "" }) => {
                           <img
                             className="h-[6.663rem] w-[5rem] relative object-cover z-[5]"
                             alt=""
-                            src="/image-11@2x.png"
+                            src="./image-11@2x.png"
                           />
                           <div className="flex flex-col items-start justify-start pt-[2.081rem] px-[0rem] pb-[0rem]">
                             <img
                               className="w-[1.25rem] h-[2.5rem] relative object-cover z-[4]"
                               alt=""
-                              src="/plus-21@2x.png"
+                              src="./plus-21@2x.png"
                             />
                           </div>
                         </div>
@@ -173,7 +173,7 @@ const PageContent = ({ className = "" }) => {
                       <img
                         className="h-[1.875rem] w-[1.875rem] relative object-cover z-[3]"
                         alt=""
-                        src="/arrow@2x.png"
+                        src="./arrow@2x.png"
                       />
                     </div>
                     <div className="flex-1 rounded-tl-xl rounded-tr-none rounded-br-none rounded-bl-xl bg-white flex flex-col items-end justify-start pt-[0.718rem] pb-[0.975rem] pr-[1.687rem] pl-[0.437rem] gap-[0.531rem] z-[3] border-t-[1px] border-solid border-darkgray border-b-[1px] border-l-[1px]">
@@ -181,7 +181,7 @@ const PageContent = ({ className = "" }) => {
                       <img
                         className="w-[5rem] flex-1 relative max-h-full object-cover z-[4]"
                         alt=""
-                        src="/image-12@2x.png"
+                        src="./image-12@2x.png"
                       />
                       <div className="w-[5.313rem] relative leading-[0.938rem] flex items-center justify-center z-[4]">
                         Plain chiffon Maxi dress
@@ -197,23 +197,23 @@ const PageContent = ({ className = "" }) => {
                   />
                   <div className="self-stretch flex flex-row items-start justify-start gap-[1.118rem] mt-[-0.919rem] mq450:flex-wrap">
                     <ProductCarousel
-                      image28="/image-151@2x.png"
-                      image29="/image-161@2x.png"
-                      plus="/plus-31@2x.png"
+                      image28="./image-151@2x.png"
+                      image29="./image-161@2x.png"
+                      plus="./plus-31@2x.png"
                       originalPrice="4002"
                       discountedPrice="1500"
                       propPadding="0.625rem 0.562rem 0.875rem 0.437rem"
                     />
                     <ProductCarousel
-                      image28="/image-131@2x.png"
-                      image29="/image-14@2x.png"
-                      plus="/plus-41@2x.png"
+                      image28="./image-131@2x.png"
+                      image29="./image-14@2x.png"
+                      plus="./plus-41@2x.png"
                       originalPrice="1088"
                       discountedPrice="999"
                       propPadding="0.625rem 0.437rem 0.875rem"
                     />
                     <FrameComponent
-                      image32="/image-17@2x.png"
+                      image32="./image-17@2x.png"
                       propPadding="0.725rem 1.687rem 0.975rem 0.437rem"
                       propGap="0.525rem"
                     />

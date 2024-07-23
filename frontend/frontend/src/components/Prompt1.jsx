@@ -9,11 +9,11 @@ const Prompt1 = () => {
   return (
     <div>
       <Header1
-        link="/link@2x.png"
-        image="/image@2x.png"
-        image1="/image-1@2x.png"
-        image2="/image-2@2x.png"
-        image3="/image-3@2x.png"
+        link="./link@2x.png"
+        image="./image@2x.png"
+        image1="./image-1@2x.png"
+        image2="./image-2@2x.png"
+        image3="./image-3@2x.png"
       />
 
       <main className="self-stretch flex flex-row items-start justify-start py-[0rem] pr-[1.687rem] pl-[0rem] box-border gap-[3.912rem] max-w-full mq450:gap-[1rem] mq825:gap-[1.938rem] mq825:pl-[1.688rem] mq825:box-border">
@@ -88,7 +88,7 @@ const Prompt1 = () => {
 
                   
                     <TypePrompt
-                      arrow="/arrow-11@2x.png"
+                      arrow="./arrow-11@2x.png"
                       className="mt-[-10rem]"
                    />
                   
@@ -99,12 +99,12 @@ const Prompt1 = () => {
         </section>
         <div className="w-[9.844rem] flex flex-col items-start justify-start pt-[1.437rem] px-[0rem] pb-[0rem] box-border absolute top-0 right-0 z-[-1]">
           <ImageGrid
-            shoppingBagFull="/shopping-bag-full@2x.png"
-            sunGlasses="/sun-glasses@2x.png"
-            shirt="/shirt@2x.png"
-            tShirt="/tshirt@2x.png"
-            pairOfSneakers="/pair-of-sneakers@2x.png"
-            sneakers="/sneakers@2x.png"
+            shoppingBagFull="./shopping-bag-full@2x.png"
+            sunGlasses="./sun-glasses@2x.png"
+            shirt="./shirt@2x.png"
+            tShirt="./tshirt@2x.png"
+            pairOfSneakers="./pair-of-sneakers@2x.png"
+            sneakers="./sneakers@2x.png"
           />
         </div>
       </main>
